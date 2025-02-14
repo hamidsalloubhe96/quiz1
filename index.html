@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Afrique</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>Quiz sur l'Afrique et le Développement Web</h1>
+        <p id="score">Score : 0</p>
+        <p id="timer">Temps restant : 20s</p>
+        <div id="question-container">
+            <p id="question-text"></p>
+            <div id="answer-buttons"></div>
+        </div>
+        <p id="feedback-message"></p>
+        <audio id="correct-sound" src="/1-efek-sound-3-220030.mp3"></audio>
+        <audio id="wrong-sound" src="/buzzer-or-wrong-answer-20582.mp3"></audio>
+        <button id="next-btn" class="hidden">Suivant</button>
+        <button id="history-btn">Historique des réponses</button>
+        <div id="history-container" class="hidden"></div>
+    </div>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>
